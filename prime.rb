@@ -7,7 +7,6 @@ def prime?(argument)
       div << count
     end
     test = argument % count 
-    count += 1
   end
   if div.length > 2 
     false
