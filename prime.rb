@@ -1,6 +1,6 @@
 def prime?(argument)
-  count = 2 
-  div = []
+  count = 1 
+  div = [1, argument]
   while count < argument
     if argument % count == 0 
       div << count
