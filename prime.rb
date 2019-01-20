@@ -8,9 +8,9 @@ def prime?(argument)
     test = argument % count 
     count += 1
   end
-  if div.length > 0 
+  if div.length > 2 
     false
-  elsif argument <= 0 || 1
+  elsif argument <= 0 
     false
   else
     true 
