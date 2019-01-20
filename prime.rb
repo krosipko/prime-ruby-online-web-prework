@@ -10,7 +10,7 @@ def prime?(argument)
   end
   if div.length > 2 
     false
-  elsif argument < 1 
+  elsif argument <= 1 
     false
   else
     true 
