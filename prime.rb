@@ -9,11 +9,11 @@ def prime?(argument)
     count += 1
   end
   if div.length > 0 
-    false 
+    true
   elsif argument <= 0 || 1
-    false 
-  else
     true 
+  else
+    false 
   end
   
 end
